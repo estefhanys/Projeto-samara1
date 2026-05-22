@@ -1,0 +1,105 @@
+/* 1. RESET BÁSICO (Remove margens padrão do navegador) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. COR DO BODY E FONTE */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  background-color: #494b4a; /* Um cinza azulado bem clarinho */
+  color: #000000;
+  line-height: 1.6;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 3. ESTILO PARA TÍTULOS */
+h1 {
+  color: #c99813;
+  -webkit-text-stroke: 2px black; /* Espessura e cor do contorno */
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-style: oblique;
+}
+
+h2{
+    color: #c99813;
+    -webkit-text-stroke: 1px #000000;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-style: oblique;
+}
+/* 4. ESTILO DOS LINKS (O que você pediu antes) */
+a {
+  color: #c99813;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s; /* Deixa a mudança de cor suave */
+}
+
+a:hover {
+  color: #050505;
+  text-decoration: underline;
+}
+
+/* 5. UM CONTAINER PARA O CONTEÚDO */
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 6. ESTILO PARA BOTÃO (Caso você use <button>) */
+button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #27ae60;}
+
+  .meu-botao {
+  display: inline-block;    /* Permite dar tamanho e altura ao link */
+  background-color: #9fa1a0; /* Cor de fundo (Verde) */
+  color: white;             /* Cor do texto */
+  padding: 10px 20px;       /* Espaço interno (Cima/Baixo e Lados) */
+  text-decoration:dashed;    /* Remove o sublinhado de link */
+  font-size: 20px;          /* Tamanho da letra */
+  font-weight: bold;        /* Deixa o texto em negrito */
+  margin-left: auto;
+  border-radius: 35px;       /* Arredonda as bordas */
+  transition: 0.3s;         /* Efeito suave ao passar o mouse */
+  border: none;             /* Garante que não tenha borda estranha */
+  cursor: pointer;          /* Coloca o ícone de "mãozinha" do mouse */
+}
+
+/* Efeito de destaque quando passa o mouse */
+.meu-botao:hover {
+  background-color: #ffffff; /* Muda para um verde mais claro */
+  transform: scale(1.05);    /* Dá um leve zoom no botão */}
+ 
+ 
+  img {
+  border-radius: 25px; /* Quanto maior o número, mais arredondado */
+  border: 5px solid #141414;
+}
+.Continente{
+
+  width: 60%;
+  
+}
